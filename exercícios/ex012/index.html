@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video com HTML5</title>
+</head>
+
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+
+    <h2>Veja um vídeo mostrando uma Ferrari</h2>
+    <video poster="midia/imagem-ferrari.png" width="500" height="315" controls autoplay loop>
+        <source src="midia/meu-video.mkv" type="video/mkv">
+        <source src="midia/meu-video.webm" type="video/webm">
+        <source src="midia/meu-video.ogv" type="video/ogv">
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <p>Desculpe, mas o seu navegador não pode carregar o vídeo. <a href="midia/meu-video.mp4">Clique aqui para fazer
+                o download do arquivo mp4</a></p>
+    </video>
+    <h1>Inserindo vídeos do Youtube</h1>
+
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/Yfmpit4CPkM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<h1>Inserindo vídeos do Vimeo</h1>
+<iframe src="https://player.vimeo.com/video/29109888?h=02becb3306" width="500" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+
+
+</body>
+
+</html>

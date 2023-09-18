@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando Links</title>
+
+    <style>
+/*
+# =   id
+. =   class
+: =   pseudo-class
+::=   pseudo-element
+> =   chlidrem
+*/
+
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: rgb(74, 74, 253);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: darkblue;
+        }
+
+        a:active {
+            color: lightblue;
+        }
+
+        .especial {
+            background-color: #7d7dffc2;
+            color: white;
+        }
+
+        .especial::before {
+            content: '❯';
+            color: darkgray;
+        }
+
+        .especial::after {
+            content: '❮';
+            color: darkgrey;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/Gaab23" target="_blank">Repositório GitHub</a></li>
+        <li><a href="https://www.youtube.com/channel/UCiN0tVpPb6OS6vg9ggkx1Tw" target="_blank">Meu canal no Youtube</a>
+        </li>
+        <li><a href="https://www.instagram.com/g.marques194/" target="_blank" class="especial">Meu instagram</a></li>
+    </ul>
+
+
+
+</body>
+
+</html>
