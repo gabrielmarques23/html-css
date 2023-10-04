@@ -7,13 +7,13 @@
     <title>Uso de iframe</title>
 </head>
 <style>
-    body{
-        font-family: Arial, Helvetica, sans-serif; 
+    body {
+        font-family: Arial, Helvetica, sans-serif;
     }
-    iframe{
 
-    }
-    iframe#tela{
+    iframe {}
+
+    iframe#tela {
         width: 95vw;
         height: 400px;
         border: 2px solid black;
@@ -34,14 +34,21 @@
     </ul>
 
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae aliquid voluptatibus et totam, officia, fugit
-        suscipit saepe officiis 
+        suscipit saepe officiis
         nobis, nostrum atque ipsum? Dolorem quidem eaque saepe. Cum cumque quis iure? Lorem
         ipsum dolor sit amet, consectetur adipisicing elit. Quo quod cumque atque sint optio molestiae tempora inventore
         dolorum numquam amet maxime velit, tempore delectus vitae soluta qui neque, ad repellendus.</p>
 
-<iframe src="#" id="tela" name="frame">Infelizmente seu navegador não é compatível com isso</iframe>
+    <iframe  id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1> <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae aliquid voluptatibus et totam, officia, fugit
+        suscipit saepe officiis
+        nobis, nostrum atque ipsum? Dolorem quidem eaque saepe. Cum cumque quis iure?</p><img src='imagens/bklogo.png'> " >
+        <p>Infelizmente seu navegador não é compatível com isso</p>
+    </iframe>
 
- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum repellat ipsum beatae. Nisi non accusantium vel distinctio sed accusamus. Est amet vel accusamus numquam nesciunt culpa dolorem modi ipsum repellat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus cupiditate pariatur explicabo et amet laboriosam ab, vel hic repudiandae fugiat iste ut earum, cum similique iure? Dolore eaque consequatur ratione!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum repellat ipsum beatae. Nisi non accusantium vel
+        distinctio sed accusamus. Est amet vel accusamus numquam nesciunt culpa dolorem modi ipsum repellat? Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Necessitatibus cupiditate pariatur explicabo et amet laboriosam ab,
+        vel hic repudiandae fugiat iste ut earum, cum similique iure? Dolore eaque consequatur ratione!</p>
 
 
 </body>
